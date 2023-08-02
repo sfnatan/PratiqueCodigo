@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    background-repeat: repeat; /* Repete a imagem apenas na vertical */
+    background-size: auto; 
+    background-image: url("/img/2\ \(2\).jpg");
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+    
+}
+
+
+header{
+    
+
+    display: flex;
+    position:relative;
+    margin: 0 auto;
+    justify-content: center;
+    padding-top: 50px;
+}
+main {
+    width: 600px;
+    background-color: blueviolet;
+    margin: 0 auto;
+    position:relative;
+    flex: 1;
+    
+}
+nav{
+    background-color: rgb(159, 159, 189);
+    height: 30px;
+    width: 600px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.botao-menu{
+    margin-right: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+
+#menu{
+    background-color: rgb(35, 27, 27);
+    
+    width: 600px;
+    height: 50px;
+    text-align: center;
+    padding-bottom: 15px;
+    align-content: center;
+    align-items: center;
+    color: #f0f0f0;
+    font-size: 35px;
+
+}
+
+aside {
+    position: absolute;
+    top: 65px;
+    right: 0px;
+    height:730px;
+    width: 80px; /* Defina a largura desejada */
+    background-color: #f0f0f0; /* Defina a cor de fundo desejada */
+    padding: 10px; /* Adicione espaçamento interno conforme necessário */
+  }
+
+  section{
+    background-color: rgb(127, 174, 174);
+    width: 500px; 
+    height: 750px;
+    
+  }
+  #conteudos{
+    
+    align-items: center;
+    justify-content: center;
+    padding-top: 600px;
+    padding-right: 10px;
+  }
+  
+ 
+
+  h1{
+    padding: 20px;
+  }
+
+  #video-p{
+    margin-top: 20px;
+  }
+
+  #questao{
+    padding-left: 20px;
+    font-size: 20px;
+  }
+  p{
+    padding-left: 10px;
+  }
+
+  iframe{
+    padding-top: 20px;
+  }
+
+  footer {
+    text-align: center;
+    
+    padding: 20px;
+    width: 100%;
+}
+
+.redes-sociais{
+    width: 50px;
+    height: 50px;
+}
